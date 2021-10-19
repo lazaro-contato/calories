@@ -1,14 +1,25 @@
 import styled from "styled-components";
+import Colors from '../../styles/consts'
+
+export const HeaderDiv = styled.div`
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+`
 
 export const Container = styled.div`
 
     height: 100px;
-    background: #7159c1;
-    color: #fff;
+    background: ${Colors.PRIMARY_BACKGROUND};
+    color: ${Colors.PRIMARY_BACKGROUND};
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 120px;
+    width: 1560px;
+    padding: 20px 0;
+
 
 `
 
@@ -16,6 +27,6 @@ export const DivLink = styled.div`
     display: flex;
     align-items: center;
 
-    background: #fff;
+    background: ${Colors.PRIMARY_BACKGROUND};
 
 `

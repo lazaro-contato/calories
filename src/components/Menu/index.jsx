@@ -1,9 +1,9 @@
 import React from "react";
 import { MenuStyle } from "./styles";
 
-import Link from "../HeaderLink/HeaderLink";
-import Button from "../Button/Button";
-import HambMenu from "../HambMenu/HambMenu";
+import Link from "../HeaderLink/index";
+import Button from "../Button/index";
+import HambMenu from "../HambMenu/index";
 
 
 function NavMenu() {

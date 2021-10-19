@@ -10,9 +10,20 @@ export default createGlobalStyle`
 }
 
 body {
-    background: #f5f5f5;
+
     font-size: 14px;
-    color: #333;
+
 }
+
+`
+
+export const DataContainer = styled.div`
+
+margin-top: 50px;
+
+display: flex;
+align-items: center;
+justify-content: center;
+
 
 `
