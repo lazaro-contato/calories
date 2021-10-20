@@ -1,10 +1,10 @@
 import React from "react";
 import { ButtonCont } from "./styles";
 
-function ButtonContact() {
+function Button(props) {
     return(
-        <ButtonCont>Contato</ButtonCont>
+        <ButtonCont>{props.text}</ButtonCont>
     )
 }
 
-export default ButtonContact;
+export default Button;

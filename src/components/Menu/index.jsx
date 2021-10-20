@@ -17,7 +17,7 @@ function NavMenu() {
         <Link link="https://www.facebook.com" name="Portifólio" />
       </li>
       <li>
-        <Button />
+        <Button text="Contato"/>
       </li>
       </MenuStyle>
   );
