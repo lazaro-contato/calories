@@ -1,13 +1,22 @@
 import React from "react";
 import Form from "../Form";
-import { Container } from "./styles";
+import InfoCalories from "../InfoCalories";
+import { Container, ElementContainer, FlexContainer } from "./styles";
 
  
 
 function MainContainer() {
     return(
             <Container>
-            <Form />
+                <FlexContainer>
+                    <ElementContainer>
+                        <Form />
+                    </ElementContainer>
+                    <ElementContainer>
+                        <InfoCalories textContent="Taxa Metabólica Basal" unit="Calorias por dia"/>
+                        <InfoCalories textContent="Necessidade diária de calorias" unit="Calorias por dia"/>
+                    </ElementContainer>
+                </FlexContainer>
             </Container>
     )
 }
