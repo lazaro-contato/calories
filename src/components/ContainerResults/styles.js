@@ -11,7 +11,6 @@ export const MainContainerResults = styled.div`
 
 export const AlignDiv = styled.div`
 width: 530px;
-margin-bottom: 25px;
 
 
 display: flex;
