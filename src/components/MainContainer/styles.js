@@ -23,4 +23,10 @@ justify-content: center;
 
 export const ElementContainer = styled.div`
 
+margin-top: 80px;
+
+display: flex;
+justify-content: center;
+width: 50%;
+
 `

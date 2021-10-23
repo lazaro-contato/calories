@@ -1,6 +1,6 @@
 import React from "react";
+import ContainerResults from "../ContainerResults";
 import Form from "../Form";
-import InfoCalories from "../InfoCalories";
 import { Container, ElementContainer, FlexContainer } from "./styles";
 
  
@@ -13,8 +13,7 @@ function MainContainer() {
                         <Form />
                     </ElementContainer>
                     <ElementContainer>
-                        <InfoCalories textContent="Taxa Metabólica Basal" unit="Calorias por dia"/>
-                        <InfoCalories textContent="Necessidade diária de calorias" unit="Calorias por dia"/>
+                        <ContainerResults />
                     </ElementContainer>
                 </FlexContainer>
             </Container>
