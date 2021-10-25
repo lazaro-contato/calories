@@ -1,4 +1,5 @@
 import styled, { createGlobalStyle } from "styled-components";
+import { MEDIA } from "../styles/consts"
 
 export default createGlobalStyle`
 
@@ -16,14 +17,24 @@ body {
 }
 
 `
+export const HeaderMainDiv = styled.div`
+display: flex;
+justify-content: center;
+`
 
 export const DataContainer = styled.div`
 
-margin-top: 50px;
+margin-top: 20px;
 
 display: flex;
 align-items: center;
 justify-content: center;
+
+${MEDIA.LARGE_SCREEN}{
+
+    margin-top: 30px;
+
+}
 
 
 `
@@ -35,4 +46,9 @@ flex-direction: column;
 justify-content: space-between;
 
 height: 100vh;
+`
+
+export const FooterDiv = styled.div`
+
+height: 70px;
 `

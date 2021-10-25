@@ -6,9 +6,9 @@ import { FormContainer } from "./styles";
 function Form() {
     return(
         <FormContainer>
-            <InputElement text="Altura" spanText="cm"/>
-            <InputElement text="Peso" spanText="Kg"/>
-            <InputElement text="Idade"/>
+            <InputElement text="Altura" spanText="cm" name="Altura"/>
+            <InputElement text="Peso" spanText="Kg" name="Peso"/>
+            <InputElement text="Idade" name="idade"/>
             <Button text="Calcular"/>
         </FormContainer>
 

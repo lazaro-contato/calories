@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import Colors from '../../styles/consts'
+import { Colors } from '../../styles/consts'
 
 export const LogoNameContainer = styled.div`
 

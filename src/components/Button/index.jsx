@@ -2,8 +2,13 @@ import React from "react";
 import { ButtonCont } from "./styles";
 
 function Button(props) {
+
+    function test(){
+        console.log("casa")
+    }
+
     return(
-        <ButtonCont>{props.text}</ButtonCont>
+        <ButtonCont onClick={test}>{props.text}</ButtonCont>
     )
 }
 

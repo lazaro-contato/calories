@@ -6,10 +6,18 @@ import { UnitSpan } from "./styles";
 
 
 function InputElement(props) {
+
+    const InputName = props.name
+    function namee(){
+        console.log(InputName)
+    }
+    
+
+
     return(
         <DivDescription>
             <TextDescription>{props.text}</TextDescription>
-        <InputData />
+        <InputData onChange={namee}/>
         <UnitSpan>{props.spanText}</UnitSpan>
         </DivDescription>
         
