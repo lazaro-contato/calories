@@ -1,7 +1,7 @@
 import React from "react";
 import ContainerResults from "../ContainerResults";
 import Form from "../Form";
-import { Container, ElementContainer, FlexContainer } from "./styles";
+import { Container, ElementContainer, FlexContainer, FormContainer } from "./styles";
 
  
 
@@ -9,9 +9,9 @@ function MainContainer() {
     return(
             <Container>
                 <FlexContainer>
-                    <ElementContainer>
+                    <FormContainer>
                         <Form />
-                    </ElementContainer>
+                    </FormContainer>
                     <ElementContainer>
                         <ContainerResults />
                     </ElementContainer>

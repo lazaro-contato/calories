@@ -5,8 +5,8 @@ export const Container = styled.div`
 
 background-color: ${Colors.PRIMARY_BACKGROUND};
 
-width: 1560px;
-height: 668px;
+width: 1360px;
+height: 610px;
 
 
 border-radius: 10px;
@@ -19,6 +19,16 @@ export const FlexContainer = styled.div`
 
 display: flex;
 justify-content: center;
+`
+
+export const FormContainer = styled.div`
+
+margin-top: 80px;
+
+display: flex;
+justify-content: center;
+width: 50%;
+
 `
 
 export const ElementContainer = styled.div`

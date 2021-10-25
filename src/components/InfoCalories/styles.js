@@ -12,7 +12,13 @@ font-size: 30px;
 font-weight: 700;
 color: ${Colors.PRIMARY_COLOR_FONT};
 
-margin-bottom: 25px;
+
 
 `
+export const ContainerText = styled.div`
 
+display: flex;
+align-items: center;
+
+margin-bottom: 25px;
+`

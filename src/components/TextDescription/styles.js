@@ -9,7 +9,7 @@ font-size: 24px;
 
 display: flex;
 
-margin-bottom: 25px;
+
 
 `
 export const DescriptionDiv = styled.div`

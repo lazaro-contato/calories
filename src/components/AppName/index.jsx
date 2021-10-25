@@ -1,14 +1,16 @@
 import React from "react";
+import LogoImg from "../../assets/calories.png"
 
-import { AppName } from "./styles";
+import { AppName, LogoImage, LogoNameContainer } from "./styles";
 
 function AppNameLogo() {
     return(
         <div>
-
-        <AppName>CalorieS</AppName>
+        <LogoNameContainer>
+            <LogoImage src={LogoImg}></LogoImage>
+            <AppName>CalorieS</AppName>
+        </LogoNameContainer>
         </div>
-        
   
     )
 }

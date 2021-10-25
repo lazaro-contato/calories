@@ -17,7 +17,7 @@ export const Container = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 1560px;
+    width: 1360px;
     padding: 20px 0;
 
 

@@ -1,10 +1,14 @@
 import React from "react";
-import { InfoDiv, TextContent } from "./styles";
+import { ContainerText, InfoDiv, TextContent } from "./styles";
+import InterrogationIcon from "../InterrogationIcon/index"
 
 function InfoCalories(props) {
     return(
         <InfoDiv>
-        <TextContent>{props.textContent}</TextContent>
+            <ContainerText>
+                <TextContent>{props.textContent}</TextContent>
+                <InterrogationIcon></InterrogationIcon>
+            </ContainerText>
         </InfoDiv>
     )
 }
