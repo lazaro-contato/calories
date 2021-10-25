@@ -1,21 +1,25 @@
 import React from "react";
 
-import GlobalStyle, { DataContainer } from '../styles/global'
+import GlobalStyle, { DataContainer, DivPageFlex } from '../styles/global'
 import Header from "./Header/index.jsx";
 import MainContainer from "./MainContainer";
 import { HeaderDiv } from "../components/Header/styles";
+import Footer from "./Footer";
 
 function App() {
     return(
         <div>
-        <GlobalStyle />
-        <HeaderDiv>
-            <Header />
-        </HeaderDiv>
-        <DataContainer>
-            <MainContainer />
-        </DataContainer>
-        
+            <GlobalStyle />
+            <DivPageFlex>
+                <HeaderDiv>
+                    <Header />
+                </HeaderDiv>
+                <DataContainer>
+                    <MainContainer />
+                </DataContainer>
+                <Footer></Footer>
+            </DivPageFlex>
+            
         </div>
         
     )

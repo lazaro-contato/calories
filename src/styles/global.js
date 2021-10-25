@@ -27,3 +27,12 @@ justify-content: center;
 
 
 `
+
+export const DivPageFlex = styled.div`
+
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+
+height: 100vh;
+`
