@@ -8,7 +8,7 @@ function Form() {
         <FormContainer>
             <InputElement text="Altura" spanText="cm" name="Altura"/>
             <InputElement text="Peso" spanText="Kg" name="Peso"/>
-            <InputElement text="Idade" name="idade"/>
+            <InputElement text="Idade" name="Idade"/>
             <Button text="Calcular"/>
         </FormContainer>
 
