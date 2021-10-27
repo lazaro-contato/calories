@@ -23,6 +23,7 @@ margin-bottom: 10px;
 
 
 export const InputData = styled.input`
+
 padding-left: 10px;
 padding-right: 30px;
 
@@ -42,6 +43,7 @@ font-size: 20px;
 &&:focus {
     outline: none;
 }
+
 
 `
 
