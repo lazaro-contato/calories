@@ -44,6 +44,5 @@ font-size: 20px;
     outline: none;
 }
 
-
 `
 

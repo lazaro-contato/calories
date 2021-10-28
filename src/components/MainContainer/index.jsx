@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import ContainerResults from "../ContainerResults";
 import Form from "../Form";
 import { Container, ElementContainer, FlexContainer, FormContainer } from "./styles";
@@ -6,14 +6,17 @@ import { Container, ElementContainer, FlexContainer, FormContainer } from "./sty
  
 
 function MainContainer() {
+
+    const [values, setValues] = useState({})
+
     return(
             <Container>
                 <FlexContainer>
                     <FormContainer>
-                        <Form />
+                        <Form setValues={setValues}/>
                     </FormContainer>
                     <ElementContainer>
-                        <ContainerResults />
+                        <ContainerResults values={values}/>
                     </ElementContainer>
                 </FlexContainer>
             </Container>

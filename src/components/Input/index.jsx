@@ -6,15 +6,15 @@ import { UnitSpan } from "./styles";
 
 
 function InputElement(props) {
-    
     return(
         <DivDescription>
             <TextDescription>{props.text}</TextDescription> 
-        <InputData name={props.name} />
+        <InputData name={props.name} type={props.type} />
        <UnitSpan>{props.spanText}</UnitSpan>
         </DivDescription>
         
     )
+
 }
 
 export default InputElement
