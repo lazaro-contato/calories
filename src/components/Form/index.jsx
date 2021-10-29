@@ -31,6 +31,7 @@ function Form({setValues}) {
     return(
 
         <FormContainer onSubmit={handleSubmit(onSubmit)}>
+            <h1>casa</h1>
 
             <DivDescription>
                 <TextDescription>Altura</TextDescription>
@@ -43,7 +44,7 @@ function Form({setValues}) {
 
                 <TextDescription>Idade</TextDescription>
                 <InputData name="idade" {...register('idade', { required: true })} />
-                <InputSubmit type="submit"></InputSubmit>
+                <InputSubmit type="submit" />
 
             </DivDescription>
         </FormContainer>
