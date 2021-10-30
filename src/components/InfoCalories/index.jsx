@@ -7,7 +7,7 @@ function InfoCalories(props) {
         <InfoDiv>
             <ContainerText>
                 <TextContent>{props.textContent}</TextContent>
-                <InterrogationIcon></InterrogationIcon>
+                <InterrogationIcon text={props.tippy}/>
             </ContainerText>
         </InfoDiv>
     )

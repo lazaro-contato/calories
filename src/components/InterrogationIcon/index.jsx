@@ -1,9 +1,18 @@
 import React from "react";
 import InterrogationLogo from "../../assets/interrogation.svg"
-import { Interrogation } from "./styles";
+import { Interrogation, TextConfig } from "./styles";
 
-function InterrogationIcon() {
-    return <Interrogation src={InterrogationLogo}></Interrogation>
+import Tippy from '@tippyjs/react';
+import 'tippy.js/dist/tippy.css';
+import 'tippy.js/animations/scale.css';
+
+
+function InterrogationIcon(props) {
+    return (
+        <Tippy content={<TextConfig>{props.text}</TextConfig>}interactive={true} animation='scale' >
+            <Interrogation src={InterrogationLogo}></Interrogation>
+        </Tippy>
+    )
 }
 
 

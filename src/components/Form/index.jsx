@@ -31,7 +31,6 @@ function Form({setValues}) {
     return(
 
         <FormContainer onSubmit={handleSubmit(onSubmit)}>
-            <h1>casa</h1>
 
             <DivDescription>
                 <TextDescription>Altura</TextDescription>

@@ -22,17 +22,18 @@ function ContainerResults(props) {
     return(
         <MainContainerResults>  
             <ResultsDiv>
-                <InfoCalories textContent="Taxa Metabólica Basal"/>
+                <InfoCalories textContent="Taxa Metabólica Basal" tippy="É o total de calorias gastas para manter as funções vitais, como os batimentos cardíacos, a pressão arterial e a temperatura corporal."/>
             </ResultsDiv>
             <ResultsDiv>
                 <TextResult result={TMB.toFixed(2)} unit="Calorias/dia"/>
             </ResultsDiv>
             <ResultsDiv>
-                <InfoCalories textContent="Necessidade diária de calorias"/>
+                <InfoCalories textContent="Necessidade diária de calorias" tippy="Gasto calórico considerando a sua rotina de exercícios físicos"/>
             </ResultsDiv>
             <ResultsDiv>
                 <AlignDiv>
                     <TextDescription text="Nenhuma atividade física"/>
+
                     <TextResult result={NAT.toFixed(2)} unit="Calorias/dia"/>
                 </AlignDiv>
             </ResultsDiv>

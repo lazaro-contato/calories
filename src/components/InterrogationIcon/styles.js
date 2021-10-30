@@ -7,3 +7,7 @@ margin-left: 8px;
 
 cursor: pointer;
 `
+
+export const TextConfig = styled.span`
+
+`
