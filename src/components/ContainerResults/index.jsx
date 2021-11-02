@@ -6,7 +6,6 @@ import TextDescription from "../TextDescription/index";
 
 
 function ContainerResults(props) {
-    console.log(props.values)
 
     const alturaValor = props.values.altura;
     const pesoValor = props.values.peso;
@@ -25,7 +24,7 @@ function ContainerResults(props) {
                 <InfoCalories textContent="Taxa Metabólica Basal" tippy="É o total de calorias gastas para manter as funções vitais, como os batimentos cardíacos, a pressão arterial e a temperatura corporal."/>
             </ResultsDiv>
             <ResultsDiv>
-                <TextResult result={TMB.toFixed(2)} unit="Calorias/dia"/>
+                <TextResult result={(TMB.toFixed(2)).replace('.', ',')} unit="Calorias/dia"/>
             </ResultsDiv>
             <ResultsDiv>
                 <InfoCalories textContent="Necessidade diária de calorias" tippy="Gasto calórico considerando a sua rotina de exercícios físicos"/>
@@ -34,7 +33,7 @@ function ContainerResults(props) {
                 <AlignDiv>
                     <TextDescription text="Nenhuma atividade física"/>
 
-                    <TextResult result={NAT.toFixed(2)} unit="Calorias/dia"/>
+                    <TextResult result={(NAT.toFixed(2)).replace('.', ',')} unit="Calorias/dia"/>
                 </AlignDiv>
             </ResultsDiv>
             <ResultsDiv>
@@ -46,7 +45,7 @@ function ContainerResults(props) {
             <ResultsDiv>
                 <AlignDiv>
                     <TextDescription text="Atividade física intensa"/>
-                    <TextResult result={AFI.toFixed(2)} unit="Calorias/dia"/> 
+                    <TextResult result={(AFI.toFixed(2)).replace('.', ',')} unit="Calorias/dia"/> 
                 </AlignDiv>
             </ResultsDiv>
         </MainContainerResults>

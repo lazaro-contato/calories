@@ -10,7 +10,7 @@ cursor: pointer;
 `
 
 export const LogoImage = styled.img`
-width: 56px;
+width: 30px;
 margin-right: 5px;
 `;
 

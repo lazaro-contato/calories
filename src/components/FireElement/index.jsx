@@ -1,5 +1,5 @@
 import React from "react";
-import LogoImge from "../../assets/calories.png"
+import LogoImge from "../../assets/calories.svg"
 import { Description, ImgFire, MainDescriptionDiv } from "./styles";
 
 function FireElement() {

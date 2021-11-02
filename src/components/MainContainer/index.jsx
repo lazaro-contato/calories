@@ -17,7 +17,7 @@ function MainContainer() {
                         <Form setValues={setValues}/>
                     </FormContainer>
                     <ElementContainer>
-                    <FireElement></FireElement>
+                    {values.altura ? <ContainerResults values={values} /> : <FireElement />}
                     </ElementContainer>
                 </FlexContainer>
             </Container>

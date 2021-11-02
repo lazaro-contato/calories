@@ -1,5 +1,5 @@
 import React from "react";
-import LogoImg from "../../assets/calories.png"
+import LogoImg from "../../assets/calories.svg"
 
 import { AppName, LogoImage, LogoNameContainer } from "./styles";
 

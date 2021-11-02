@@ -27,9 +27,6 @@ function Form({setValues}) {
             idade: data.idade
         })
 
-        console.log(height)
-        console.log(weight)
-        console.log(age)
     };
 
 
