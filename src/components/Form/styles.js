@@ -38,10 +38,10 @@ box-shadow: 1px 1px 4px 0 #E5E9F6;
 font-size: 20px;
 
 
+
 &&:focus {
     outline: none;
 }
-
 `
 
 export const UnitSpan = styled.span`

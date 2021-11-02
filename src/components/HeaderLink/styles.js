@@ -12,9 +12,14 @@ padding: 0.5rem;
 color: #${Colors.PRIMARY_COLOR_FONT};
 
 
-&:visited {
+&&:visited {
     color: ${Colors.PRIMARY_COLOR_FONT};
     
+}
+
+&&:hover{
+    color:${Colors.PRIMARY_BLUE};
+    transition: 0.3s;
 }
 
 `

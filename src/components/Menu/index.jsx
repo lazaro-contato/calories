@@ -11,13 +11,13 @@ function NavMenu() {
     <MenuStyle>
     <HambMenu />
       <li>
-        <Link link="https://www.google.com" name="Protótipo" />
+        <Link link="https://www.figma.com/file/Oax133nUde3F3LQnfHFSuH/CalorieS?node-id=0%3A1" name="Protótipo" />
       </li>
       <li>
-        <Link link="https://www.facebook.com" name="Portifólio" />
+        <Link link="https://github.com/lazaro-contato/" name="Portifólio" target="_blank"/>
       </li>
       <li>
-        <Button text="Contato"/>
+        <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/lazaro-contato/"><Button text="Contato"/></a>
       </li>
       </MenuStyle>
   );

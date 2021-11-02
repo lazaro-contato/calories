@@ -4,7 +4,7 @@ import { HeaderLink } from "./styles";
 
 function Link({link,name}) {
     return(
-        <HeaderLink href={link}>{name}</HeaderLink>
+        <HeaderLink href={link} target="_blank" rel="noreferrer">{name}</HeaderLink>
     )
 }
 

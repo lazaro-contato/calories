@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import ContainerResults from "../ContainerResults";
+import FireElement from "../FireElement";
 import Form from "../Form";
 import { Container, ElementContainer, FlexContainer, FormContainer } from "./styles";
 
@@ -16,7 +17,7 @@ function MainContainer() {
                         <Form setValues={setValues}/>
                     </FormContainer>
                     <ElementContainer>
-                        <ContainerResults values={values}/>
+                    <FireElement></FireElement>
                     </ElementContainer>
                 </FlexContainer>
             </Container>

@@ -40,13 +40,13 @@ function ContainerResults(props) {
             <ResultsDiv>
                 <AlignDiv>
                     <TextDescription text="Atividade física moderada"/>
-                    <TextResult result={AFM.toFixed(2)} unit="Calorias/dia"/>
+                    <TextResult result={(AFM.toFixed(2)).replace('.', ',')} unit="Calorias/dia"/>
                 </AlignDiv>
             </ResultsDiv>
             <ResultsDiv>
                 <AlignDiv>
                     <TextDescription text="Atividade física intensa"/>
-                    <TextResult result={AFI.toFixed(2)} unit="Calorias/dia"/>
+                    <TextResult result={AFI.toFixed(2)} unit="Calorias/dia"/> 
                 </AlignDiv>
             </ResultsDiv>
         </MainContainerResults>

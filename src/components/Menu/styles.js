@@ -12,3 +12,6 @@ box-sizing: border-box;
 
 list-style: none;
 `
+
+export const liElement = styled.li`
+`
