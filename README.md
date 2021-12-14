@@ -37,6 +37,8 @@ https://www.figma.com/file/Oax133nUde3F3LQnfHFSuH/CalorieS?node-id=0%3A1
 
 * [ **A pixel to rem calculator**](https://pixeltorem.netlify.app/).<br>
 *[Repository](https://github.com/lazaro-contato/pixeltorem)*
+* [ **Rest countries consumer**](https://rest-countries-consumer.netlify.app/).<br>
+*[Repository](https://github.com/lazaro-contato/restcountriesapi)*
 
 
 ## 📃 Portifolio
