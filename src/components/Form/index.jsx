@@ -1,29 +1,18 @@
-import React, { useState } from "react";
+import React from "react";
 import { DivDescription, FormContainer, InputData, InputSubmit, TextDescription, UnitSpan } from "./styles";
 import { useForm } from "react-hook-form"
 
 
 function Form({setValues}) {
 
-    const [height, setHeight] = useState(0)
-    const [weight, setWeight] = useState(0)
-    const [age, setAge] = useState(0)
-    
     const {register, handleSubmit} = useForm();
 
     const onSubmit = data => {
 
-        const newHeight = data.altura
-        const newWeight = Math.round(data.peso.replace(",", "."))
-        const newAge = Math.round(data.idade.replace(",", "."))
-
-        setHeight(newHeight)
-        setWeight(newWeight)
-        setAge(newAge)
 
         setValues({
             altura: data.altura,
-            peso: data.peso,
+            peso: data.peso.replace(",", "."),
             idade: data.idade
         })
 
